@@ -1,0 +1,148 @@
+.rect1 {
+  width: 100px;
+  border-left:2px;
+  border-top:2px;
+  border-bottom:2px;
+  border-color:white;
+  border-style:solid;
+  height:153px;
+  border-right:transparent;
+  float:left;
+  border-top-left-radius:10px;
+  border-bottom-left-radius:10px;
+
+}
+
+.rect2 {
+  width: 100px;
+  border-top:2px;
+  border-color:white;
+  border-style:solid;
+  height:153px;
+  border-right:transparent;
+  border-left:transparent;
+  border-bottom:transparent;
+  float:left;
+  display:inline-block;
+  text-overflow:auto;
+}
+
+.rect3 {
+  width: 100px;
+  border-right:2px;
+  border-top:2px;
+  border-bottom:2px;
+  border-color:white;
+  border-style:solid;
+  height:153px;
+  border-left:transparent;
+  display:inline-block;
+  border-top-right-radius:10px;
+  border-bottom-right-radius:10px;
+}
+.wrapper{
+  display: inline-block;
+  position:relative;
+  margin-left: 80px;
+}
+
+
+.small-circle-right {
+  height: 4px;
+  width: 80px;
+  border-top: 2px solid white;
+  border-right: 2px solid white;
+  border-top-right-radius: 700px;
+  position: absolute;
+  left: 55px;
+  bottom:1px
+}
+
+.parallelogram-left {
+  position: absolute;
+  top:151px;
+  left:104px;
+    width: 30px; 
+    height: 20px; 
+    -webkit-transform: skew(40deg); 
+    -moz-transform: skew(40deg); 
+    transform: skew(40deg);
+    background: transparent;
+    border-top-right-radius: 10px;
+    border-top: 2px solid white;
+    border-right: 2px solid white;
+
+}
+
+.parallelogram-right {
+  position: absolute;
+  top:151px;
+  left:160px;
+    width: 33px; 
+    height: 20px; 
+    -webkit-transform: skew(-40deg); 
+    -moz-transform: skew(-40deg); 
+    transform: skew(-40deg);
+    background: transparent;
+    border-top-left-radius: 10px;
+    border-top: 2px solid white;
+    border-left: 2px solid white;
+}
+
+.parallelogram-btm {
+    position: absolute;
+    top: 161px;
+    left: 140px;
+    width: 14px;
+    height: 14px;
+    -webkit-transform: skew(-35deg);
+    -moz-transform: skew(-35deg);
+    transform: skew(-35deg);
+    transform: rotate(-136deg);
+    background: transparent;
+    border-top-left-radius: 10px;
+    border-top: 2px solid white;
+    border-left: 2px solid white;
+
+}
+
+.rect2 img {
+  margin: 35px;
+}
+
+body {
+  background-color: green;
+}
+
+.make-hidden {
+  visibility: hidden;
+}
+
+.icon-container {
+  position: relative;
+  left: 215px;
+  bottom: -81px;
+}
+
+.dir-container {
+  display: inline-block;
+  width: 380px;
+}
+
+.arrow-box-container {
+  display: inline-block;
+}
+
+.nav-items {
+  display: inline-block;
+  height: 40px;
+  width: 100px;
+  background-color: transparent;
+  text-align: center;
+  padding-top: 12px;
+}
+
+.selected-nav-item {
+  background-color: yellow;
+}
+
